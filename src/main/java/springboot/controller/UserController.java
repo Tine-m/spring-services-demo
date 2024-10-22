@@ -15,10 +15,6 @@ public class UserController {
 
     private UserService userService;
 
-  /*  @GetMapping("")
-    public String greeting() {
-        return ("Hello from SpringBoot");
-    }*/
     // build create User REST API
     @PostMapping
     public ResponseEntity<User> createUser(@RequestBody User user){
